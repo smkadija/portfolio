@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SMKYM-logo01-01.jpg" width="150">
+  <img src="Profile.jpg" width="150">
 </p>
 
 # Portfolio
