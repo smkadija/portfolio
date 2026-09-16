@@ -14,7 +14,7 @@
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
 I am a Computer Science & Engineering graduate with a strong interest in **Graphic Design, UI/UX Design, Front-End Development, and Mobile Application Development**.
 
@@ -24,9 +24,9 @@ I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScr
 
 ---
 
-## 🛠️ Skills
+## Skills
 
-### 🎨 Design
+### Design
 - UI/UX Design
 - Graphic Design
 - Figma
@@ -37,7 +37,7 @@ I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScr
 - Design Systems
 - Responsive UI Design
 
-### 💻 Web & Mobile Development
+### Web & Mobile Development
 - HTML
 - CSS
 - JavaScript
@@ -47,7 +47,7 @@ I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScr
 - Dart
 - Firebase
 
-### 📊 Data & Analytics
+### Data & Analytics
 - Python
 - Pandas
 - Data Analysis
@@ -56,7 +56,7 @@ I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScr
 
 ---
 
-## 🎓 Education
+## Education
 
 **B.Sc. in Computer Science & Engineering**  
 Leading University, Sylhet  
@@ -75,11 +75,11 @@ Blue Bird School & College, Sylhet
 
 ---
 
-## 📜 Certifications
+## Certifications
 
 ### Design
-- Professional Graphics Design — Times IT
-- Professional UI/UX Design — UY LAB / Ostad
+- Professional Graphics Design - Times IT
+- Professional UI/UX Design - UY LAB / Ostad
 
 ### Kaggle
 - Python
@@ -90,9 +90,9 @@ Blue Bird School & College, Sylhet
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 📱 My_LU — University Campus Application
+### My_LU - University Campus Application
 A Flutter-based campus application designed to provide university-related services in one platform.
 
 **Key Features:**
@@ -110,7 +110,7 @@ A Flutter-based campus application designed to provide university-related servic
 
 ---
 
-### 🎨 UI/UX Design Projects
+### UI/UX Design Projects
 
 Designed modern, user-focused interfaces and design systems for mobile applications, including:
 
@@ -123,7 +123,7 @@ Designed modern, user-focused interfaces and design systems for mobile applicati
 
 ---
 
-### 🔬 Research & Academic Projects
+### Research & Academic Projects
 
 **Energy & Performance Evaluation of Post-Quantum Cryptography**
 
@@ -133,7 +133,7 @@ Research project focused on evaluating classical and post-quantum cryptographic 
 
 ---
 
-### 📊 Data Analysis Projects
+### Data Analysis Projects
 
 **Student Wellbeing Analysis**  
 Analyzed student-related data to explore relationships between wellbeing and academic performance.
@@ -145,7 +145,7 @@ Explored performance-related aspects of high-speed wireless networks through dat
 
 ---
 
-## 💼 Professional Interests
+## Professional Interests
 
 - Graphic Design
 - UI/UX Design
@@ -158,7 +158,7 @@ Explored performance-related aspects of high-speed wireless networks through dat
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://www.behance.net/smkadija">
