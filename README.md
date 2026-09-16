@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Profile.jpg" width="150" alt="S.M. Kadija">
+  <img src="Profile-round.png" width="150" alt="S.M. Kadija">
 </p>
 
 <h1 align="center">S M Kadija Munni</h1>
