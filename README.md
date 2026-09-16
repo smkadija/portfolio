@@ -3,7 +3,7 @@
 </p>
 
 # Portfolio
-# S.M. Kadija Yasmin
+# S.M. Kadija
 Professional Graphics Designer | Computer Science Student | Aspiring App Developer | Front-End Developer
 
 ## About Me
@@ -40,5 +40,5 @@ I am a passionate Computer Science student and a professional Graphics Designer 
 - **IoT & Security:** Post-Quantum Cryptography implementation on Raspberry Pi 4.
 
 ## Find Me On
-- **Design Portfolios:** [Behance](https://www.behance.net/lunarvect) 
+- **Design Portfolios:** [Behance](https://www.behance.net/smkadija)
 - **Professional:** [LinkedIn](https://www.linkedin.com/in/smmunni/)
