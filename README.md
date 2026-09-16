@@ -22,7 +22,7 @@ I am a passionate Computer Science student and a professional Graphics Designer 
   - Blue Bird School & College, Sylhet | GPA: 5.00/5.00.
 
 ## Certifications
-- **Graphics & UI/UX:** [Times IT] Certification on Professional Graphics Design & [UY LAB] Certification on Professional UI/UX Design.
+- **Graphics & UI/UX:** [Times IT] Certification on Professional Graphics Design & [UY LAB, Ostad] Certification on Professional UI/UX Design.
 - **Kaggle Data Science Tracks:**
   - Python
   - Intro to Machine Learning 
