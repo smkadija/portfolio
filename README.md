@@ -110,6 +110,19 @@ A Flutter-based campus application designed to provide university-related servic
 
 ---
 
+### Smart City Traffic Visualizer
+
+A real-time smart city traffic visualization system developed using
+Python, PyOpenGL, and GLUT.
+
+The project simulates a four-way road intersection with traffic
+signals, animated vehicles, day/night rendering, environmental
+elements, Bezier curves, and line-clipping techniques.
+
+**Technologies:** Python · PyOpenGL · GLUT · Computer Graphics
+
+🔗 [View Project on GitHub](https://github.com/smkadija/Smart-City-Traffic-Visualizer)
+
 ### UI/UX Design Projects
 
 Designed modern, user-focused interfaces and design systems for mobile applications, including:
