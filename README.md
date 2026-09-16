@@ -5,7 +5,7 @@
 <h1 align="center">S M Kadija Munni</h1>
 
 <p align="center">
-  <strong>Graphic Designer | UI/UX Designer | Front-End Developer | Flutter Developer</strong>
+  <strong>Graphic Designer | UI/UX Designer | Web Developer | Flutter Developer</strong>
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
 
 ## About Me
 
-I am a Computer Science & Engineering graduate with a strong interest in **Graphic Design, UI/UX Design, Front-End Development, and Mobile Application Development**.
+I am a Computer Science & Engineering graduate with a strong interest in **Graphic Design, UI/UX Design, Web Development, and Mobile Application Development**.
 
 My background combines creative design with technical problem-solving. I enjoy transforming ideas into visually engaging interfaces and functional digital experiences.
 
-I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScript, Flutter, Dart, and Firebase**, along with hands-on experience in academic projects, research, and freelance design work.
+I have experience working with **Figma, Adobe Creative Suite, HTML, CSS, JavaScript, PHP, React.Js, Flutter, Dart, and Firebase**, along with hands-on experience in academic projects, research, and freelance design work.
 
 ---
 
