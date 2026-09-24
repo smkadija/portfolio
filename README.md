@@ -1,64 +1,81 @@
 # S M Kadija - Personal Portfolio
 
-A personal portfolio website showcasing my work in **Graphic Design, UI/UX Design, Web Design, and Front-End Development**.
+**UI/UX Designer · Graphic Designer · Web Designer · Front-End Developer**
 
-## About
+Welcome to my personal portfolio repository. This project showcases my work, creative projects, design skills, and experience in combining **design with technology** to create engaging digital experiences.
 
-I'm S M Kadija, a Computer Science graduate and creative designer interested in creating engaging digital experiences through design and technology.
+## About Me
 
-This portfolio showcases selected projects, design work, services, and professional information.
+I'm **S M Kadija**, a Computer Science graduate with a strong interest in **UI/UX design, graphic design, web design, and front-end development**.
 
-## Tech Stack
+I enjoy turning ideas into clean, meaningful, and visually engaging digital experiences. My background in Computer Science allows me to approach design with both a creative and technical perspective.
 
-* React
-* TypeScript
-* Vite
+## What I Do
+
+* UI/UX Design
+* Graphic Design
+* Web Design
+* Front-End Development
+* Brand & Visual Identity Design
+* Social Media Design
+* Responsive Website Design
+
+## Skills & Tools
+
+### Design
+
+* Figma
+* Adobe Illustrator
+* Adobe Photoshop
+* Adobe InDesign
+* UI/UX Design
+* Typography
+* Visual Identity
+
+### Development
+
 * HTML
 * CSS
 * JavaScript
+* React
+* TypeScript
+* Vite
+* PHP
+* Flutter
+* Dart
+* Firebase
 
-## Features
+## Portfolio Features
 
-* Responsive portfolio website
-* Interactive project showcase
-* Project details and image previews
+* Responsive personal portfolio
+* Modern interactive interface
+* Project showcase
+* Project details and previews
 * Services section
 * About section
 * Contact section
 * Responsive navigation
-* Modern visual design
+* Modern animations and visual interactions
 
-## Run Locally
+## Tech Stack
 
-### Prerequisites
+This portfolio is built using:
 
-* Node.js
-* npm
-
-### Installation
-
-```bash
-npm install
-```
-
-### Start Development Server
-
-```bash
-npm run dev
-```
-
-### Production Build
-
-```bash
-npm run build
-```
+* **React**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **HTML**
+* **CSS**
+* **JavaScript**
 
 ## Connect With Me
 
-* GitHub: https://github.com/smkadija
-* Behance: https://www.behance.net/smkadija
-* LinkedIn: https://www.linkedin.com/in/smmunni/
+GitHub:
+https://github.com/smkadija
 
-## License
+Behance:
+https://www.behance.net/smkadija
 
-This project is my personal portfolio website.
+LinkedIn:
+https://www.linkedin.com/in/smmunni/
