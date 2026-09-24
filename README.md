@@ -1,6 +1,6 @@
 # S M Kadija - Personal Portfolio
 
-**UI/UX Designer · Graphic Designer · Web Designer · Front-End Developer**
+**UI/UX Designer · Graphic Designer · Web Developer**
 
 Welcome to my personal portfolio repository. This project showcases my work, creative projects, design skills, and experience in combining **design with technology** to create engaging digital experiences.
 
