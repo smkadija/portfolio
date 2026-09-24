@@ -1,7 +1,7 @@
 import { Project, ServiceItem, ProcessStep, ElsewhereLink } from '../types';
 
 export const PERSONAL_INFO = {
-  name: 'S M KADIJA MUNNI',
+  name: 'S M KADIJA',
   shortName: 'SMK',
   title: 'UI/UX DESIGNER • WEB DEVELOPER',
   location: 'Sylhet, Bangladesh',

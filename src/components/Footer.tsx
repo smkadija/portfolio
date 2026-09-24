@@ -43,13 +43,13 @@ export const Footer: React.FC = () => {
             <div className="w-[42px] h-[42px] sm:w-[46px] sm:h-[46px] rounded-full overflow-hidden border border-[#A52A52]/70 shadow-[0_0_14px_rgba(165,42,82,0.4)] bg-[#0B080A] flex-shrink-0">
               <img
                 src={PERSONAL_INFO.profileImages.main}
-                alt="S M Kadija Munni"
+                alt="S M Kadija"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="space-y-1">
               <h3 className="text-base sm:text-lg font-heading font-black tracking-tight text-[#F5EEF0]">
-                S M KADIJA MUNNI
+                S M KADIJA
               </h3>
               <p className="text-xs font-mono text-[#8E8287]">
                 UI/UX Designer &amp; Web Developer
@@ -114,7 +114,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-6 self-end md:self-auto">
-            <span>© {new Date().getFullYear()} S M Kadija Munni. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} S M Kadija. All rights reserved.</span>
             <button
               type="button"
               onClick={scrollToTop}

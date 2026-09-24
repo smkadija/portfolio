@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
             <div className="relative w-[34px] h-[34px] sm:w-[38px] sm:h-[38px] rounded-full overflow-hidden border border-[#A52A52]/70 shadow-[0_0_12px_rgba(165,42,82,0.4)] bg-[#0B080A] flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
               <img
                 src={PERSONAL_INFO.profileImages.main}
-                alt="S M Kadija Munni"
+                alt="S M Kadija"
                 onError={() => setAvatarError(true)}
                 className="w-full h-full object-cover object-top"
               />
@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
 
             {/* Clean bold name without profession */}
             <span className="font-heading font-black text-sm sm:text-base tracking-tight text-white group-hover:text-[#D66A89] transition-colors whitespace-nowrap">
-              S M KADIJA MUNNI
+              S M KADIJA
             </span>
           </a>
 
@@ -128,14 +128,14 @@ export const Navbar: React.FC = () => {
                 <div className="w-10 h-10 rounded-full overflow-hidden border border-[#A52A52] bg-[#0B080A] shadow-[0_0_14px_rgba(165,42,82,0.4)] flex-shrink-0">
                   <img
                     src={PERSONAL_INFO.profileImages.main}
-                    alt="S M Kadija Munni"
+                    alt="S M Kadija"
                     className="w-full h-full object-cover object-top"
                     onError={() => setAvatarError(true)}
                   />
                 </div>
                 <div>
                   <div className="text-base font-heading font-black text-white">
-                    S M KADIJA MUNNI
+                    S M KADIJA
                   </div>
                   <div className="text-xs font-mono text-[#D66A89]">
                     UI/UX Designer &amp; Web Developer
