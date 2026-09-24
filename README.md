@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# S M Kadija - Personal Portfolio
 
-# Run and deploy your AI Studio app
+A personal portfolio website showcasing my work in **Graphic Design, UI/UX Design, Web Design, and Front-End Development**.
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/52200fbe-bdb7-4725-a5e6-2ebdaedf78fa
+I'm S M Kadija, a Computer Science graduate and creative designer interested in creating engaging digital experiences through design and technology.
+
+This portfolio showcases selected projects, design work, services, and professional information.
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* HTML
+* CSS
+* JavaScript
+
+## Features
+
+* Responsive portfolio website
+* Interactive project showcase
+* Project details and image previews
+* Services section
+* About section
+* Contact section
+* Responsive navigation
+* Modern visual design
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+* Node.js
+* npm
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+## Connect With Me
+
+* GitHub: https://github.com/smkadija
+* Behance: https://www.behance.net/smkadija
+* LinkedIn: https://www.linkedin.com/in/smmunni/
+
+## License
+
+This project is my personal portfolio website.
