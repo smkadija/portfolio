@@ -14,6 +14,7 @@ export const Process: React.FC = () => {
 
       const totalDist = rect.height + windowHeight * 0.5;
       const currentDist = windowHeight - rect.top;
+
       const progress = Math.min(
         Math.max(currentDist / totalDist, 0),
         1
@@ -25,7 +26,9 @@ export const Process: React.FC = () => {
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
@@ -34,12 +37,11 @@ export const Process: React.FC = () => {
       ref={sectionRef}
       className="py-24 sm:py-32 relative bg-[#050505] border-t border-white/[0.08] overflow-hidden"
     >
-      {/* Background ambient lighting */}
+      {/* Ambient background */}
       <div className="absolute top-1/2 left-1/3 w-[450px] h-[450px] bg-ambient-burgundy rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left">
-
-        {/* Section Header */}
+        {/* Section heading */}
         <div className="mb-16 sm:mb-20 space-y-3">
           <span className="text-xs sm:text-sm font-mono uppercase tracking-widest text-[#D66A89] block font-semibold">
             Process
@@ -50,16 +52,15 @@ export const Process: React.FC = () => {
           </h2>
         </div>
 
-        {/* Editorial 4-Step Process Glass Timeline */}
+        {/* Timeline */}
         <div className="relative">
-
-          {/* Timeline Base Line */}
+          {/* Base timeline */}
           <div
             className="hidden lg:block absolute top-[28px] left-[40px] right-[40px] h-[2px] bg-white/[0.08] z-0 pointer-events-none"
             aria-hidden="true"
           />
 
-          {/* Progressive Burgundy Accent Line */}
+          {/* Animated timeline */}
           <div
             className="hidden lg:block absolute top-[28px] left-[40px] right-[40px] h-[2px] z-0 origin-left transition-transform duration-300 ease-out pointer-events-none"
             style={{
@@ -74,7 +75,7 @@ export const Process: React.FC = () => {
             aria-hidden="true"
           />
 
-          {/* Process Cards */}
+          {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
             {PROCESS_STEPS.map((step, idx) => {
               const stepThreshold = 0.2 + idx * 0.2;
@@ -83,14 +84,13 @@ export const Process: React.FC = () => {
               return (
                 <div
                   key={step.number}
-                  className={`flex flex-col text-left p-6 sm:p-7 rounded-[22px] transition-all duration-500 relative z-30 ${
+                  className={`flex flex-col text-left p-6 sm:p-7 rounded-[22px] relative z-30 border transition-all duration-500 ${
                     isIlluminated
-                      ? 'glass-panel bg-[rgba(165,42,82,0.08)] border-[#A52A52]/70 shadow-[0_16px_36px_rgba(0,0,0,0.8),0_0_24px_rgba(165,42,82,0.25)]'
-                      : 'glass-panel hover:border-[#A52A52]/50 hover:bg-[rgba(255,255,255,0.05)]'
+                      ? 'bg-[#080608]/95 border-[#A52A52]/70 shadow-[0_16px_36px_rgba(0,0,0,0.85),0_0_24px_rgba(165,42,82,0.25)]'
+                      : 'bg-[#080608]/95 border-white/[0.08] hover:border-[#A52A52]/50 hover:bg-[#0C080B]'
                   }`}
                 >
-
-                  {/* Step Indicator */}
+                  {/* Step number + status dot */}
                   <div className="flex items-center justify-between mb-6">
                     <span
                       className={`w-11 h-11 rounded-full flex items-center justify-center text-sm font-mono font-bold transition-all duration-500 ${
@@ -111,7 +111,7 @@ export const Process: React.FC = () => {
                     />
                   </div>
 
-                  {/* Step Title */}
+                  {/* Title */}
                   <h3
                     className={`text-xl sm:text-2xl font-heading font-bold tracking-tight uppercase mb-3 transition-colors duration-300 ${
                       isIlluminated ? 'text-white' : 'text-white/90'
@@ -120,7 +120,7 @@ export const Process: React.FC = () => {
                     {step.title}
                   </h3>
 
-                  {/* Step Description */}
+                  {/* Description */}
                   <p className="text-sm sm:text-base text-[#8E8287] font-normal leading-relaxed">
                     {step.description}
                   </p>
@@ -129,7 +129,6 @@ export const Process: React.FC = () => {
             })}
           </div>
         </div>
-
       </div>
     </section>
   );
