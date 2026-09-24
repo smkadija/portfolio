@@ -63,9 +63,9 @@ export const ProfileVisual: React.FC<ProfileVisualProps> = ({
               setImageFailed(false);
               setLoaded(true);
             }}
-            className={`w-full h-full object-cover object-top filter grayscale contrast-105 hover:grayscale-0 transition-all duration-700 ease-out ${
+            className={`w-full h-full object-cover object-top filter grayscale contrast-105 hover:grayscale-0 max-md:grayscale-0 transition-all duration-700 ease-out $
               imageFailed ? 'opacity-0' : loaded ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
-            }`}
+              }`}
           />
 
           {/* Minimal Architectural Backdrop if image is pending - ZERO text, ZERO labels */}
