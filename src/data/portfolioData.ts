@@ -43,60 +43,33 @@ export const SERVICES: ServiceItem[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  // 01 — COFFEE APP
   {
     id: 'coffee-app',
     title: 'Coffee App',
     category: 'UI/UX',
-    categoryDisplay: 'UI/UX DESIGN · MOBILE',
-    oneLiner: 'Premium coffee ordering experience.',
+    categoryDisplay: 'UI/UX DESIGN • MOBILE',
+    oneLiner: 'A refined mobile coffee ordering experience focused on intuitive navigation and visual clarity.',
     tools: ['Figma', 'Design Systems', 'Prototyping'],
     thumbnail: '/images/projects/coffee-app/thumbnail.jpg',
     images: [
       '/images/projects/coffee-app/01.jpg',
-      '/images/projects/coffee-app/02.jpg'
+      '/images/projects/coffee-app/02.jpg',
+      '/images/projects/coffee-app/03.jpg',
+      '/images/projects/coffee-app/04.jpg'
     ],
     layoutSpan: 'standard',
     year: '2025',
     behanceUrl: 'https://www.behance.net/smkadija',
   },
-  {
-    id: 'smart-city',
-    title: 'Smart City Traffic Visualizer',
-    category: 'WEB',
-    categoryDisplay: 'WEB · INTERACTIVE VISUALIZATION',
-    oneLiner: 'Interactive traffic visualization built with Python, PyOpenGL and GLUT.',
-    tools: ['Python', 'PyOpenGL', 'GLUT', 'Figma'],
-    thumbnail: '/images/projects/smart-city/thumbnail.jpg',
-    images: [
-      '/images/projects/smart-city/01.jpg',
-      '/images/projects/smart-city/02.jpg'
-    ],
-    layoutSpan: 'standard',
-    year: '2025',
-    githubUrl: 'https://github.com/smkadija',
-  },
-  {
-    id: 'my-lu',
-    title: 'My LU',
-    category: 'UI/UX',
-    categoryDisplay: 'MOBILE APP · UI',
-    oneLiner: 'University campus application concept built with Flutter, Dart and Firebase.',
-    tools: ['Flutter', 'Dart', 'Firebase', 'Figma'],
-    thumbnail: '/images/projects/my-lu/thumbnail.jpg',
-    images: [
-      '/images/projects/my-lu/01.jpg',
-      '/images/projects/my-lu/02.jpg'
-    ],
-    layoutSpan: 'standard',
-    year: '2024',
-    githubUrl: 'https://github.com/smkadija',
-  },
+
+  // 02 — VPN APP
   {
     id: 'vpn-app',
     title: 'VPN App',
     category: 'UI/UX',
-    categoryDisplay: 'UI/UX DESIGN · MOBILE',
-    oneLiner: 'Modern VPN mobile interface focused on clarity, trust and easy interaction.',
+    categoryDisplay: 'UI/UX DESIGN • MOBILE',
+    oneLiner: 'A modern mobile VPN interface designed around clarity, trust and effortless interaction.',
     tools: ['Figma', 'Mobile UI', 'Dark Mode'],
     thumbnail: '/images/projects/vpn-app/thumbnail.jpg',
     images: [
@@ -107,29 +80,61 @@ export const PROJECTS: Project[] = [
     year: '2025',
     behanceUrl: 'https://www.behance.net/smkadija',
   },
+
+  // 03 — GRAPHIC DESIGN
   {
-    id: 'zyra',
-    title: 'ZYRA',
+    id: 'graphic-design',
+    title: 'Graphic Design',
     category: 'GRAPHIC DESIGN',
-    categoryDisplay: 'BRANDING · FASHION',
-    oneLiner: 'Fashion brand identity and digital visual direction.',
-    tools: ['Figma', 'Illustrator', 'Art Direction'],
-    thumbnail: '/images/projects/zyra/thumbnail.jpg',
+    categoryDisplay: 'GRAPHIC DESIGN • VISUAL COMMUNICATION',
+    oneLiner: 'Creative visual assets designed to communicate ideas, strengthen brands and engage audiences.',
+    tools: ['Illustrator', 'Photoshop', 'Typography', 'Visual Design'],
+    thumbnail: '/images/projects/graphic-design/thumbnail.jpg',
     images: [
-      '/images/projects/zyra/01.jpg',
-      '/images/projects/zyra/02.jpg',
-      '/images/projects/zyra/03.jpg'
+      '/images/projects/graphic-design/01.jpg',
+      '/images/projects/graphic-design/02.jpg',
+      '/images/projects/graphic-design/03.jpg',
+      '/images/projects/graphic-design/04.jpg',
+      '/images/projects/graphic-design/05.jpg',
+      '/images/projects/graphic-design/06.jpg',
+      '/images/projects/graphic-design/07.jpg',
+      '/images/projects/graphic-design/08.jpg',
+      '/images/projects/graphic-design/09.jpg',
+      '/images/projects/graphic-design/10.jpg',
+      '/images/projects/graphic-design/11.jpg',
+      '/images/projects/graphic-design/12.jpg'
     ],
     layoutSpan: 'standard',
     year: '2025',
     behanceUrl: 'https://www.behance.net/smkadija',
   },
+
+  // 04 — BRANDING
   {
-    id: 'shopify-the-bag-bureau',
-    title: 'Shopify / The Bag Bureau',
+    id: 'branding',
+    title: 'Branding',
+    category: 'GRAPHIC DESIGN',
+    categoryDisplay: 'BRANDING • VISUAL IDENTITY',
+    oneLiner: 'Brand identities and visual systems developed to create clear, memorable and consistent brand experiences.',
+    tools: ['Illustrator', 'Figma', 'Photoshop', 'Art Direction'],
+    thumbnail: '/images/projects/branding/thumbnail.jpg',
+    images: [
+      '/images/projects/branding/thumbnail.jpg',
+      '/images/projects/branding/01.jpg',
+      '/images/projects/branding/02.jpg'
+    ],
+    layoutSpan: 'standard',
+    year: '2025',
+    behanceUrl: 'https://www.behance.net/smkadija',
+  },
+
+  // 05 — SHOPIFY
+  {
+    id: 'shopify',
+    title: 'Shopify',
     category: 'SHOPIFY',
-    categoryDisplay: 'SHOPIFY · E-COMMERCE',
-    oneLiner: 'Luxury goods storefront design and theme customization.',
+    categoryDisplay: 'SHOPIFY • E-COMMERCE',
+    oneLiner: 'E-commerce storefront design focused on clean presentation, usability and a cohesive shopping experience.',
     tools: ['Shopify', 'Liquid', 'Figma', 'UX'],
     thumbnail: '/images/projects/shopify/thumbnail.jpg',
     images: [
@@ -138,38 +143,6 @@ export const PROJECTS: Project[] = [
     ],
     layoutSpan: 'standard',
     year: '2024',
-    behanceUrl: 'https://www.behance.net/smkadija',
-  },
-  {
-    id: 'weather-app',
-    title: 'Weather App',
-    category: 'WEB',
-    categoryDisplay: 'WEB DEVELOPMENT',
-    oneLiner: 'Responsive weather application with dynamic meteorological metrics.',
-    tools: ['JavaScript', 'REST APIs', 'CSS3 / Tailwind'],
-    thumbnail: '/images/projects/weather-app/thumbnail.jpg',
-    images: [
-      '/images/projects/weather-app/01.jpg',
-      '/images/projects/weather-app/02.jpg'
-    ],
-    layoutSpan: 'standard',
-    year: '2024',
-    githubUrl: 'https://github.com/smkadija',
-  },
-  {
-    id: 'graphic-design',
-    title: 'Graphic Design',
-    category: 'GRAPHIC DESIGN',
-    categoryDisplay: 'GRAPHIC DESIGN · ASSETS',
-    oneLiner: 'Curated visual identity, social content and branded assets.',
-    tools: ['Illustrator', 'Photoshop', 'Typography'],
-    thumbnail: '/images/projects/graphic-design/thumbnail.jpg',
-    images: [
-      '/images/projects/graphic-design/01.jpg',
-      '/images/projects/graphic-design/02.jpg'
-    ],
-    layoutSpan: 'standard',
-    year: '2025',
     behanceUrl: 'https://www.behance.net/smkadija',
   },
 ];
@@ -193,7 +166,7 @@ export const PROCESS_STEPS: ProcessStep[] = [
   {
     number: '04',
     title: 'DELIVER',
-    description: 'Prepare and deliver the final design/development work.',
+    description: 'Prepare and deliver the final design or development work.',
   },
 ];
 
